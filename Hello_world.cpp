@@ -1,11 +1,12 @@
 #include <iostream>
-using namespace std;
 
-int main()
+
+int
+main()
 {
-string name; // Строка с введёнными именем
-cin >> name;
-cout << "Hello World from " << name;
+string name1; // Строка с введёнными именем
+std::cin >> name1;
+std::cout << "Hello World from " << name1;
 
 return 0;
 
